@@ -1,0 +1,157 @@
+<html><head>
+    <title>Log On</title>
+    <link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/bootstrap.css?2f73f2f3034f2a49d309cec71faceed1">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.ui.core.css?528b24246f162a3c88e0d4208cabd1b6">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.ui.datepicker.css?c9a9bd5cedd568dcb7c5e4b44f845d94">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.ui.dialog.css?b1f91a22501c49d55b889ca427aad2fe">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.ui.datepicker.css?c9a9bd5cedd568dcb7c5e4b44f845d94">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.ui.tabs.css?d69510439824264c26ba4ff5f7ee07e7">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.multiselect.css?6d52cd96ec7c6d75f39b3e18f5d33b2d">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.ui.autocomplete.css?d56f87a2175b33bd0a16ee0afea75c51">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.ui.accordion.css?acfa6244c3fa1e022681467f7a162f2c">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/themes/base/jquery.ui.theme.css?587b023b0d7d85d4fdf22cafb82203d1">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/DataTables-1.9.0/media/css/datatables.bootstrap.css?6e041dfbc2360c10e278b7fe74704686">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/toastr.css?b63829528c321ae7a9cf7c1ca55faa15">
+<link rel="stylesheet" type="text/css" href="/loyaltymembersarnloyalty/Content/global.css?651ca7f1d5124a330da655eddbf6aebf">
+
+        <link href="/loyaltymembersarnloyalty/Content/client/ARNOTTS/ARNOTTS.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/jquery-1.7.1.js?221a7d3eb233c3392ceb9b85f19b5690"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/jquery-ui-1.8.18.js?02cd3fb891f1283efa5dd9be44a7f629"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/jquery.validate.js?10ab64850222ea6b3a3b0eae58651241"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/jquery.validate.unobtrusive.js?3a8e29ba6df49dd4d758e6ef8619a96d"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/Jquery.ui.mask.js?44387c3429dac469a9dc47d68c4f3c3c"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/DataTables-1.9.0/media/js/jquery.dataTables.js?3a8fa6973e85f01835aee463b1dab93a"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/datatables.bootstrap.js?6858185b4e6e1d21c3b4887f2fd8825b"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/bootstrap.js?559943f719e259fac27c4d58287311d9"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/json2.min.js?f435bd98b35c035f1253fa8974f2c418"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/knockout-2.2.1.debug.js?e703fe3670ed29ec6b0c7b3d584c4b46"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/knockout.mapping-latest.debug.js?05d6b71d7dd38ad29fc32f5234227a5d"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/cog.utils.js?18df4c0956df9c97c1d6062c35594775"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/knockout.bindings.dataTables.js?675104880ed5e6078a2ef1fa4d45ae60"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/Catalyst/catalyst.js?2e1404ae9e2630a2d4d5460b1c626502"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/Catalyst/catalyst.validation.js?141682e01f44e3709f33473badcd4f91"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/amplify.core.js?a1db4e924cd2d78ea2958f20f899700f"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/CatalystUI/catalyst.dirtytabs.js?d1ea33bbecef8832b2e67098cf50b725"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/CatalystGlobal/global.js?9112e4138deed525628d409569a9f906"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/CatalystUI/catalyst.membersearch.popup.js?c364aadb91b79229378ea64b920e591a"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/CatalystUI/jquery.catalyst.viewSlider.js?b24a43ae161156c390c71fc9a44edb16"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/CatalystUI/jquery.catalyst.countryZipCity.js?e4431ff5196dfd38a70c80bf55e96d5c"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/mustache.js?87b5f3b99ae14721f035da57e33ef6b8"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/underscore.js?1ff00587ad6c8454080ad13522a13b01"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/jquery.multiselect.js?6b1216b228ce0422fd839fe6b89164c2"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/toastr.js?bf0339574602ee4cd165c431d6e804a3"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/CatalystUI/jquery.catalyst.actionForm.js?ec0e0ed40fa30eddca2eb6a2a9275ebb"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/jquery.fileupload.js?a53e2da4e57e4dcb18502fb962437fb8"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/jquery.fileupload-ui.js?cc5141faa212639bc797e9068311d826"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/jquery.iframe-transport.js?252de701e0f576b4ff4f15897cabacbd"></script>
+
+    <script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/i18n/jquery.ui.datepicker-en.js?e6d111852194714e0a07cae13561d227"></script>
+<script type="text/javascript" src="/loyaltymembersarnloyalty/Scripts/i18n/catalyst.locale-en.js?a0eac3f0abd44204cb5f439395cecb80"></script>
+
+</head>
+<body class="account logon">
+    <div id="alert-message" class="hide">
+        test alert
+    </div>
+    <div class="client-header-holder ">
+        <div class="container client-header">
+            <img alt="ARNOTTS" src="/loyaltymembersarnloyalty/Content/client/ARNOTTS/images/ARNOTTS.png">
+            <section class="span3" id="lang-section">
+                <ul class="right" id="lang-list">
+                    <li><a href="/loyaltymembersarnloyalty/en/account/logon">EN</a></li>
+                    <li><a href="/loyaltymembersarnloyalty/de/account/logon">DE</a></li>
+                    
+                </ul>
+            </section>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+
+<input type="hidden" id="notloggedin">
+
+<h2>Welcome to the Catalyst System.</h2>
+
+<script src="/loyaltymembersarnloyalty/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/loyaltymembersarnloyalty/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+
+
+
+<form action="/loyaltymembersarnloyalty/account/logon?ReturnUrl=%2fLoyaltyMembersarnloyalty%2fen%2fMemberSearch%2fIndex" method="post" novalidate="novalidate">    <div>
+        <fieldset>
+            <legend>Login to Catalyst System.</legend>
+
+            <div class="editor-label">
+                Username
+            </div>
+            <div class="editor-field">
+                <input data-val="true" data-val-required="The User name field is required." id="UserName" name="UserName" type="text" value="">
+                <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="editor-label">
+                Password
+            </div>
+            <div class="editor-field">
+                <input data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password">
+                <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+            </div>
+
+            
+
+            <p>
+                <input type="submit" value="Log On" id="submit-logon">
+            </p>
+        </fieldset>
+    </div>
+</form>
+    </div>
+    <footer class="footer">
+     <span id="span_footer">Powered By Catalyst Loyalty - Version: 2.1.0.16282 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Build Date: 24/04/2019 10:02:48  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  DB Version: 2.1 </span>
+    </footer>
+    <div id="hidden-elements" class="hide">
+        
+        <span class="warning-icon ui-state-default ui-corner-all" title=""><img src="/loyaltymembersarnloyalty/Content/images/Sign-Alert-icon.png"></span>
+    </div>
+    <div id="dialog-container" class="hidden">
+        <div id="dialog-loading" class="hide">
+            loading...
+        </div>
+        <div id="dialog-content" class="container">
+        </div>
+    </div>
+    <div id="loading-template" class="hide">
+        <div id="loading-content" class="loading">
+            <img src="/loyaltymembersarnloyalty/Content/images/loading.gif" alt="loading">
+        </div>
+    </div>
+    <script type="text/javascript">
+        $.extend(catalyst.resources, {
+            tabLoadErrorMessage: 'Unable to load tab.',
+            ok: 'Ok',
+            confirm: 'Confirm',
+            yes: 'Yes',
+            no: 'No',
+            cancel: 'Cancel'
+        });
+        catalyst.globalSettings = {
+            language: 'en',
+            countryZipCityUrl: '/loyaltymembersarnloyalty/en/Address/GetCitiesInZip',
+            countryCityZipUrl: '/loyaltymembersarnloyalty/en/Address/GetZipsInCities',
+            getMemberName: '/loyaltymembersarnloyalty/en/MemberInformation/GetMemberName',
+            logOnUrl: '/loyaltymembersarnloyalty/en/Account/LogOn'
+        };
+    </script>
+    <div id="common-popup-div"></div>
+    <input type="hidden" id="hldmessages">
+    <input type="hidden" id="hOperatorId" name="hOperatorId">
+
+
+</body></html>
