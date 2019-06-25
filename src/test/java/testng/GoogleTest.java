@@ -45,7 +45,7 @@ public class GoogleTest {
 	// 5
 	@Test(priority = 2, groups = "Link Test")
 	public void mailLinkTest() {
-		boolean b = driver.findElement(By.linkText("Mail")).isDisplayed();
+		boolean b = driver.findElement(By.linkText("Gmail")).isDisplayed();
 		System.out.println("Mail link displayed test");
 	}
 
