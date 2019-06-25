@@ -33,8 +33,9 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.9.13.6</version>
-			<scope>compile</scope>
+			<version>7.0.0-beta4</version>
+			<scope>provided</scope>
+			<!-- <scope>compile</scope> -->
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -84,15 +85,15 @@
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-dependency-plugin</artifactId>
-			<version>3.1.0</version>
+			<version>3.1.1</version>
 
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
-			<version>3.8.0</version>
-
+			<version>3.8.1</version>
+			
 		</dependency>
 
 	</dependencies>
