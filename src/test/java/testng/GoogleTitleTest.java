@@ -16,6 +16,7 @@ public class GoogleTitleTest {
 
 	@BeforeMethod
 	public void setUp() {
+
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\01SelenideWorkSpace\\DemoTraining\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver(); // launch chrome
