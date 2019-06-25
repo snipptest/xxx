@@ -1,21 +1,22 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.snipp</groupId>
-  <artifactId>Anrotts</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>com.snipp</groupId>
+	<artifactId>Anrotts</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>Anrotts</name>
-  <url>http://maven.apache.org</url>
-  
-  
-  	<properties>
+	<name>Anrotts</name>
+	<url>http://maven.apache.org</url>
+
+
+	<properties>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<repositories>
@@ -42,14 +43,14 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.molgenis/molgenis-data-excel -->
-<dependency>
-    <groupId>org.molgenis</groupId>
-    <artifactId>molgenis-data-excel</artifactId>
-    <version>8.1.8</version>
-</dependency>
-		
+		<dependency>
+			<groupId>org.molgenis</groupId>
+			<artifactId>molgenis-data-excel</artifactId>
+			<version>8.1.8</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -106,18 +107,19 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M3</version>
 				<configuration>
-				
-						<!-- You can add or remove this includes part -->
-				<includes>  
-				
-				<include>LoginTestAssertions.java
-				</include>
-				</includes>
-				
+
+					<!-- You can add or remove this includes part -->
+					<includes>
+
+						<include>
+
+						</include>
+					</includes>
+
 					<suiteXmlFiles>
 
-						 <suiteXmlFile>testng.xml</suiteXmlFile> 
-						<!--<suiteXmlFile>${fileName}</suiteXmlFile>-->
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<!--<suiteXmlFile>${fileName}</suiteXmlFile> -->
 					</suiteXmlFiles>
 
 
