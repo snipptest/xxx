@@ -8,20 +8,21 @@ public class TestNgFeatures {
 	public void loginTest() {
 		System.out.println("login test");
 		// int i = 9/0;
+
 	}
 
-	@Test(dependsOnMethods = "loginTest")
+	@Test(priority = 3, dependsOnMethods = "loginTest")
 	public void HomePageTest() {
+
 		System.out.println("Home Page test");
 	}
 
-//	@Test(dependsOnMethods = "loginTest")
-	@Test(dependsOnMethods = "loginTest")
+	@Test(priority = 1, dependsOnMethods = "loginTest")
 	public void SearchPageTest() {
 		System.out.println("SearchPageTest");
 	}
 
-	@Test(dependsOnMethods = "loginTest")
+	@Test(priority = 3, dependsOnMethods = "loginTest")
 	public void RegPageTest() {
 		System.out.println("RegPageTest");
 	}

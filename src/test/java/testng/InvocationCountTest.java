@@ -4,7 +4,7 @@ import org.testng.annotations.*;
 
 public class InvocationCountTest {
 
-	@Test(invocationCount=10)
+	@Test(invocationCount=100)
 	public void sum(){
 		int a = 10;
 		int b = 20;

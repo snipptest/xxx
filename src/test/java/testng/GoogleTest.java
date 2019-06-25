@@ -24,47 +24,53 @@ public class GoogleTest {
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://www.google.com");
+		System.out.println("Setup method");
 	}
 
 	// 2
 	@Test(priority = 1, groups = "Title")
 	public void googleTitleTest() {
 		String title = driver.getTitle();
-		System.out.println(title);
-
+		System.out.println("Page title is= "+title);
+		
 	}
 
 	// 8
 	@Test(priority = 3, groups = "Logo")
 	public void googleLogoTest() {
 		boolean b = driver.findElement(By.xpath("//*[@id='hplogo']")).isDisplayed();
+		System.out.println("Logo is displayed test");
 	}
 
 	// 5
 	@Test(priority = 2, groups = "Link Test")
 	public void mailLinkTest() {
-		boolean b = driver.findElement(By.linkText("GMail")).isDisplayed();
+		boolean b = driver.findElement(By.linkText("Mail")).isDisplayed();
+		System.out.println("Mail link displayed test");
 	}
 
 	@Test(priority = 4, groups = "Test")
 	public void test1() {
 		System.out.println("test1");
+
 	}
 
 	@Test(priority = 5, groups = "Test")
 	public void test2() {
-		System.out.println("test12");
+		System.out.println("test 2");
 	}
 
 	@Test(priority = 6, groups = "Test")
 	public void test3() {
-		System.out.println("test3");
+		System.out.println("test 3");
 	}
 
 	// 3 //6 //9
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
+		System.out.println("Driver is killed");
+
 	}
 
 }

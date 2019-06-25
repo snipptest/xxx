@@ -16,7 +16,8 @@ public class GoogleTitleTest {
 
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "C:\\01SelenideWorkSpace\\DemoTraining\\drivers\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\01SelenideWorkSpace\\DemoTraining\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver(); // launch chrome
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -25,16 +26,15 @@ public class GoogleTitleTest {
 		driver.get("http://www.google.com");
 	}
 
-	@Test()
+	@Test(priority =11, groups = "Title 11")
 	public void googleTitleTest() {
 		String title = driver.getTitle();
 		System.out.println(title);
-
 		Assert.assertEquals(title, "Google", "title is not matched");
 
 	}
 
-	@Test()
+	@Test(priority =2, groups = "Title")
 	public void googleLogoTest() {
 		boolean b = driver.findElement(By.xpath("//*[@id='hplogo']")).isDisplayed();
 		Assert.assertTrue(b);
