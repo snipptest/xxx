@@ -110,18 +110,10 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M3</version>
 				<configuration>
-
-					<!-- You can add or remove this includes part
-					<includes>
-						
-						<include>
-
-						</include>
-					</includes> -->
-
+				<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
-						<!--<suiteXmlFile>${fileName}</suiteXmlFile> -->
+						
 					</suiteXmlFiles>
 
 
