@@ -3,7 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="test.java.testng.ExceptionTimeOutTest"/>
+      <class name="testng.ExceptionTimeOutTest"/>
+      <class name="testng.GoogleTest"/>
+      <class name="testng.GoogleTitleTest"/>
+      <class name="testng.InvocationCountTest"/>
+      <class name="testng.TestNgBasics"/>
+      <class name="testng.TestNgFeatures"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

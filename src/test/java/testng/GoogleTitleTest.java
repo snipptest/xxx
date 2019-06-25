@@ -39,6 +39,8 @@ public class GoogleTitleTest {
 		boolean b = driver.findElement(By.xpath("//*[@id='hplogo']")).isDisplayed();
 		Assert.assertTrue(b);
 		Assert.assertEquals(b, true);
+		Assert.assertNotNull(b);
+		
 	}
 
 	@AfterMethod
