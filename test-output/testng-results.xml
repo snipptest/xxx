@@ -1,579 +1,533 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="117" passed="116">
+<testng-results skipped="0" failed="1" ignored="0" total="116" passed="115">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="80782" started-at="2019-06-25T16:02:58 BST" finished-at="2019-06-25T16:04:19 BST">
+  <suite name="Suite" duration-ms="82267" started-at="2019-06-25T16:25:33 BST" finished-at="2019-06-25T16:26:55 BST">
     <groups>
       <group name="Link Test">
-        <method signature="GoogleTest.mailLinkTest()[pri:2, instance:testng.GoogleTest@53ca01a2]" name="mailLinkTest" class="testng.GoogleTest"/>
+        <method signature="GoogleTest.mailLinkTest()[pri:2, instance:testng.GoogleTest@14ec4505]" name="mailLinkTest" class="testng.GoogleTest"/>
       </group> <!-- Link Test -->
       <group name="Test">
-        <method signature="GoogleTest.test1()[pri:4, instance:testng.GoogleTest@53ca01a2]" name="test1" class="testng.GoogleTest"/>
-        <method signature="GoogleTest.test2()[pri:5, instance:testng.GoogleTest@53ca01a2]" name="test2" class="testng.GoogleTest"/>
-        <method signature="GoogleTest.test3()[pri:6, instance:testng.GoogleTest@53ca01a2]" name="test3" class="testng.GoogleTest"/>
+        <method signature="GoogleTest.test1()[pri:4, instance:testng.GoogleTest@14ec4505]" name="test1" class="testng.GoogleTest"/>
+        <method signature="GoogleTest.test2()[pri:5, instance:testng.GoogleTest@14ec4505]" name="test2" class="testng.GoogleTest"/>
+        <method signature="GoogleTest.test3()[pri:6, instance:testng.GoogleTest@14ec4505]" name="test3" class="testng.GoogleTest"/>
       </group> <!-- Test -->
       <group name="Title">
-        <method signature="GoogleTest.googleTitleTest()[pri:1, instance:testng.GoogleTest@53ca01a2]" name="googleTitleTest" class="testng.GoogleTest"/>
-        <method signature="GoogleTitleTest.googleLogoTest()[pri:2, instance:testng.GoogleTitleTest@358c99f5]" name="googleLogoTest" class="testng.GoogleTitleTest"/>
+        <method signature="GoogleTest.googleTitleTest()[pri:1, instance:testng.GoogleTest@14ec4505]" name="googleTitleTest" class="testng.GoogleTest"/>
+        <method signature="GoogleTitleTest.googleLogoTest()[pri:2, instance:testng.GoogleTitleTest@53ca01a2]" name="googleLogoTest" class="testng.GoogleTitleTest"/>
       </group> <!-- Title -->
       <group name="Title 11">
-        <method signature="GoogleTitleTest.googleTitleTest()[pri:11, instance:testng.GoogleTitleTest@358c99f5]" name="googleTitleTest" class="testng.GoogleTitleTest"/>
+        <method signature="GoogleTitleTest.googleTitleTest()[pri:11, instance:testng.GoogleTitleTest@53ca01a2]" name="googleTitleTest" class="testng.GoogleTitleTest"/>
       </group> <!-- Title 11 -->
       <group name="Logo">
-        <method signature="GoogleTest.googleLogoTest()[pri:3, instance:testng.GoogleTest@53ca01a2]" name="googleLogoTest" class="testng.GoogleTest"/>
+        <method signature="GoogleTest.googleLogoTest()[pri:3, instance:testng.GoogleTest@14ec4505]" name="googleLogoTest" class="testng.GoogleTest"/>
       </group> <!-- Logo -->
     </groups>
-    <test name="Test" duration-ms="80782" started-at="2019-06-25T16:02:58 BST" finished-at="2019-06-25T16:04:19 BST">
+    <test name="Test" duration-ms="82267" started-at="2019-06-25T16:25:33 BST" finished-at="2019-06-25T16:26:55 BST">
       <class name="testng.GoogleTitleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTitleTest@358c99f5]" name="setUp" is-config="true" duration-ms="5057" started-at="2019-06-25T16:04:06 BST" finished-at="2019-06-25T16:04:11 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTitleTest@53ca01a2]" name="setUp" is-config="true" duration-ms="4667" started-at="2019-06-25T16:26:44 BST" finished-at="2019-06-25T16:26:49 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleLogoTest()[pri:2, instance:testng.GoogleTitleTest@358c99f5]" name="googleLogoTest" duration-ms="58" started-at="2019-06-25T16:04:11 BST" finished-at="2019-06-25T16:04:11 BST">
+        <test-method status="PASS" signature="googleLogoTest()[pri:2, instance:testng.GoogleTitleTest@53ca01a2]" name="googleLogoTest" duration-ms="57" started-at="2019-06-25T16:26:49 BST" finished-at="2019-06-25T16:26:49 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTitleTest@358c99f5]" name="tearDown" is-config="true" duration-ms="739" started-at="2019-06-25T16:04:11 BST" finished-at="2019-06-25T16:04:12 BST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTitleTest@53ca01a2]" name="tearDown" is-config="true" duration-ms="677" started-at="2019-06-25T16:26:49 BST" finished-at="2019-06-25T16:26:50 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTitleTest@358c99f5]" name="setUp" is-config="true" duration-ms="5692" started-at="2019-06-25T16:04:12 BST" finished-at="2019-06-25T16:04:18 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTitleTest@53ca01a2]" name="setUp" is-config="true" duration-ms="4512" started-at="2019-06-25T16:26:50 BST" finished-at="2019-06-25T16:26:54 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTitleTest()[pri:11, instance:testng.GoogleTitleTest@358c99f5]" name="googleTitleTest" duration-ms="9" started-at="2019-06-25T16:04:18 BST" finished-at="2019-06-25T16:04:18 BST">
+        <test-method status="PASS" signature="googleTitleTest()[pri:11, instance:testng.GoogleTitleTest@53ca01a2]" name="googleTitleTest" duration-ms="6" started-at="2019-06-25T16:26:54 BST" finished-at="2019-06-25T16:26:54 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTitleTest@358c99f5]" name="tearDown" is-config="true" duration-ms="694" started-at="2019-06-25T16:04:18 BST" finished-at="2019-06-25T16:04:18 BST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTitleTest@53ca01a2]" name="tearDown" is-config="true" duration-ms="676" started-at="2019-06-25T16:26:54 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testng.GoogleTitleTest -->
       <class name="testng.TestNgBasics">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="setUp" is-config="true" duration-ms="17" started-at="2019-06-25T16:02:58 BST" finished-at="2019-06-25T16:02:58 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="setUp" is-config="true" duration-ms="15" started-at="2019-06-25T16:25:33 BST" finished-at="2019-06-25T16:25:33 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2019-06-25T16:02:58 BST" finished-at="2019-06-25T16:02:58 BST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2019-06-25T16:25:33 BST" finished-at="2019-06-25T16:25:33 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="login" is-config="true" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="login()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="login" is-config="true" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="enterURL" is-config="true" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="googleLogoTest" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="googleLogoTest" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLogoTest -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="logOut" is-config="true" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="googleTitleTest" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="logOut" is-config="true" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="googleTitleTest" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTitleTest -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="logOut" is-config="true" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="enterURL" is-config="true" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="searchTest()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="searchTest" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="logOut" is-config="true" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="logOut" is-config="true" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="searchTest" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="logOut" is-config="true" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="deleteAllCookies" is-config="true" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:testng.TestNgBasics@e50a6f6]" name="deleteAllCookies" is-config="true" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllCookies -->
       </class> <!-- testng.TestNgBasics -->
       <class name="testng.TestNgFeatures">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:testng.TestNgFeatures@48524010]" name="loginTest" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testng.TestNgFeatures@3ee0fea4]" name="loginTest" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="SearchPageTest()[pri:1, instance:testng.TestNgFeatures@48524010]" name="SearchPageTest" duration-ms="1" started-at="2019-06-25T16:04:19 BST" depends-on-methods="testng.TestNgFeatures.loginTest" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="SearchPageTest()[pri:1, instance:testng.TestNgFeatures@3ee0fea4]" name="SearchPageTest" duration-ms="1" started-at="2019-06-25T16:26:55 BST" depends-on-methods="testng.TestNgFeatures.loginTest" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchPageTest -->
-        <test-method status="PASS" signature="HomePageTest()[pri:3, instance:testng.TestNgFeatures@48524010]" name="HomePageTest" duration-ms="4" started-at="2019-06-25T16:04:19 BST" depends-on-methods="testng.TestNgFeatures.loginTest" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="HomePageTest()[pri:3, instance:testng.TestNgFeatures@3ee0fea4]" name="HomePageTest" duration-ms="1" started-at="2019-06-25T16:26:55 BST" depends-on-methods="testng.TestNgFeatures.loginTest" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTest -->
-        <test-method status="PASS" signature="RegPageTest()[pri:3, instance:testng.TestNgFeatures@48524010]" name="RegPageTest" duration-ms="1" started-at="2019-06-25T16:04:19 BST" depends-on-methods="testng.TestNgFeatures.loginTest" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="RegPageTest()[pri:3, instance:testng.TestNgFeatures@3ee0fea4]" name="RegPageTest" duration-ms="1" started-at="2019-06-25T16:26:55 BST" depends-on-methods="testng.TestNgFeatures.loginTest" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegPageTest -->
       </class> <!-- testng.TestNgFeatures -->
-      <class name="testng.ExceptionTimeOutTest">
-        <test-method status="PASS" signature="test1()[pri:0, instance:testng.ExceptionTimeOutTest@14ec4505]" name="test1" duration-ms="7" started-at="2019-06-25T16:02:58 BST" finished-at="2019-06-25T16:02:58 BST">
-          <exception class="java.lang.NumberFormatException">
-            <message>
-              <![CDATA[For input string: "100A"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NumberFormatException: For input string: "100A"
-at java.lang.NumberFormatException.forInputString(Unknown Source)
-at java.lang.Integer.parseInt(Unknown Source)
-at java.lang.Integer.parseInt(Unknown Source)
-at testng.ExceptionTimeOutTest.test1(ExceptionTimeOutTest.java:19)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner.privateRun(TestRunner.java:763)
-at org.testng.TestRunner.run(TestRunner.java:594)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
-at org.testng.TestNG.runSuites(TestNG.java:997)
-at org.testng.TestNG.run(TestNG.java:965)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NumberFormatException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- testng.ExceptionTimeOutTest -->
       <class name="testng.InvocationCountTest">
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:18 BST" finished-at="2019-06-25T16:04:18 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:18 BST" finished-at="2019-06-25T16:04:18 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="3" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="8" started-at="2019-06-25T16:04:18 BST" finished-at="2019-06-25T16:04:18 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="5" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="4" started-at="2019-06-25T16:04:18 BST" finished-at="2019-06-25T16:04:18 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="3" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="4" started-at="2019-06-25T16:04:18 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="4" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="10" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="4" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="3" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="4" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="3" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="15" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="11" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="3" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="5" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="8" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="8" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="15" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="57" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="3" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="8" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="14" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="6" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="4" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="3" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="4" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="8" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="3" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="2" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="0" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="0" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="sum" duration-ms="2" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="sum" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:testng.InvocationCountTest@3ee0fea4]" name="test1" duration-ms="1" started-at="2019-06-25T16:04:19 BST" finished-at="2019-06-25T16:04:19 BST">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testng.InvocationCountTest@358c99f5]" name="test1" duration-ms="1" started-at="2019-06-25T16:26:55 BST" finished-at="2019-06-25T16:26:55 BST">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[For input string: "100x"]]>
@@ -619,23 +573,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- test1 -->
       </class> <!-- testng.InvocationCountTest -->
       <class name="testng.GoogleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="setUp" is-config="true" duration-ms="6517" started-at="2019-06-25T16:02:58 BST" finished-at="2019-06-25T16:03:05 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@14ec4505]" name="setUp" is-config="true" duration-ms="6674" started-at="2019-06-25T16:25:33 BST" finished-at="2019-06-25T16:25:40 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTitleTest()[pri:1, instance:testng.GoogleTest@53ca01a2]" name="googleTitleTest" duration-ms="7" started-at="2019-06-25T16:03:05 BST" finished-at="2019-06-25T16:03:05 BST">
+        <test-method status="PASS" signature="googleTitleTest()[pri:1, instance:testng.GoogleTest@14ec4505]" name="googleTitleTest" duration-ms="12" started-at="2019-06-25T16:25:40 BST" finished-at="2019-06-25T16:25:40 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="tearDown" is-config="true" duration-ms="692" started-at="2019-06-25T16:03:05 BST" finished-at="2019-06-25T16:03:06 BST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@14ec4505]" name="tearDown" is-config="true" duration-ms="659" started-at="2019-06-25T16:25:40 BST" finished-at="2019-06-25T16:25:40 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="setUp" is-config="true" duration-ms="5742" started-at="2019-06-25T16:03:06 BST" finished-at="2019-06-25T16:03:11 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@14ec4505]" name="setUp" is-config="true" duration-ms="4619" started-at="2019-06-25T16:25:40 BST" finished-at="2019-06-25T16:25:45 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="mailLinkTest()[pri:2, instance:testng.GoogleTest@53ca01a2]" name="mailLinkTest" duration-ms="30079" started-at="2019-06-25T16:03:11 BST" finished-at="2019-06-25T16:03:41 BST">
+        <test-method status="FAIL" signature="mailLinkTest()[pri:2, instance:testng.GoogleTest@14ec4505]" name="mailLinkTest" duration-ms="30035" started-at="2019-06-25T16:25:45 BST" finished-at="2019-06-25T16:26:15 BST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Mail"}
@@ -644,8 +598,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-1UNN7PP', ip: '10.242.2.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Kieran\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ca067bcb8971c9a58146201a111e72b6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Kieran\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 429a07d23f838ac2252a5d15f6a93af2
 *** Element info: {Using=link text, value=Mail}]]>
             </message>
             <full-stacktrace>
@@ -655,8 +609,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-1UNN7PP', ip: '10.242.2.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Kieran\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ca067bcb8971c9a58146201a111e72b6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Kieran\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 429a07d23f838ac2252a5d15f6a93af2
 *** Element info: {Using=link text, value=Mail}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -706,55 +660,55 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mailLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="tearDown" is-config="true" duration-ms="696" started-at="2019-06-25T16:03:41 BST" finished-at="2019-06-25T16:03:42 BST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@14ec4505]" name="tearDown" is-config="true" duration-ms="638" started-at="2019-06-25T16:26:15 BST" finished-at="2019-06-25T16:26:16 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="setUp" is-config="true" duration-ms="4708" started-at="2019-06-25T16:03:42 BST" finished-at="2019-06-25T16:03:47 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@14ec4505]" name="setUp" is-config="true" duration-ms="4675" started-at="2019-06-25T16:26:16 BST" finished-at="2019-06-25T16:26:20 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleLogoTest()[pri:3, instance:testng.GoogleTest@53ca01a2]" name="googleLogoTest" duration-ms="81" started-at="2019-06-25T16:03:47 BST" finished-at="2019-06-25T16:03:47 BST">
+        <test-method status="PASS" signature="googleLogoTest()[pri:3, instance:testng.GoogleTest@14ec4505]" name="googleLogoTest" duration-ms="69" started-at="2019-06-25T16:26:20 BST" finished-at="2019-06-25T16:26:20 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="tearDown" is-config="true" duration-ms="761" started-at="2019-06-25T16:03:47 BST" finished-at="2019-06-25T16:03:48 BST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@14ec4505]" name="tearDown" is-config="true" duration-ms="679" started-at="2019-06-25T16:26:20 BST" finished-at="2019-06-25T16:26:21 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="setUp" is-config="true" duration-ms="5296" started-at="2019-06-25T16:03:48 BST" finished-at="2019-06-25T16:03:53 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@14ec4505]" name="setUp" is-config="true" duration-ms="7013" started-at="2019-06-25T16:26:21 BST" finished-at="2019-06-25T16:26:28 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1()[pri:4, instance:testng.GoogleTest@53ca01a2]" name="test1" duration-ms="1" started-at="2019-06-25T16:03:53 BST" finished-at="2019-06-25T16:03:53 BST">
+        <test-method status="PASS" signature="test1()[pri:4, instance:testng.GoogleTest@14ec4505]" name="test1" duration-ms="1" started-at="2019-06-25T16:26:28 BST" finished-at="2019-06-25T16:26:28 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="tearDown" is-config="true" duration-ms="739" started-at="2019-06-25T16:03:53 BST" finished-at="2019-06-25T16:03:54 BST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@14ec4505]" name="tearDown" is-config="true" duration-ms="675" started-at="2019-06-25T16:26:28 BST" finished-at="2019-06-25T16:26:29 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="setUp" is-config="true" duration-ms="6057" started-at="2019-06-25T16:03:54 BST" finished-at="2019-06-25T16:04:00 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@14ec4505]" name="setUp" is-config="true" duration-ms="7917" started-at="2019-06-25T16:26:29 BST" finished-at="2019-06-25T16:26:37 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test2()[pri:5, instance:testng.GoogleTest@53ca01a2]" name="test2" duration-ms="1" started-at="2019-06-25T16:04:00 BST" finished-at="2019-06-25T16:04:00 BST">
+        <test-method status="PASS" signature="test2()[pri:5, instance:testng.GoogleTest@14ec4505]" name="test2" duration-ms="1" started-at="2019-06-25T16:26:37 BST" finished-at="2019-06-25T16:26:37 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="tearDown" is-config="true" duration-ms="715" started-at="2019-06-25T16:04:00 BST" finished-at="2019-06-25T16:04:00 BST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@14ec4505]" name="tearDown" is-config="true" duration-ms="732" started-at="2019-06-25T16:26:37 BST" finished-at="2019-06-25T16:26:37 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="setUp" is-config="true" duration-ms="5019" started-at="2019-06-25T16:04:00 BST" finished-at="2019-06-25T16:04:05 BST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.GoogleTest@14ec4505]" name="setUp" is-config="true" duration-ms="6155" started-at="2019-06-25T16:26:37 BST" finished-at="2019-06-25T16:26:43 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test3()[pri:6, instance:testng.GoogleTest@53ca01a2]" name="test3" duration-ms="2" started-at="2019-06-25T16:04:05 BST" finished-at="2019-06-25T16:04:05 BST">
+        <test-method status="PASS" signature="test3()[pri:6, instance:testng.GoogleTest@14ec4505]" name="test3" duration-ms="1" started-at="2019-06-25T16:26:43 BST" finished-at="2019-06-25T16:26:43 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@53ca01a2]" name="tearDown" is-config="true" duration-ms="717" started-at="2019-06-25T16:04:05 BST" finished-at="2019-06-25T16:04:06 BST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.GoogleTest@14ec4505]" name="tearDown" is-config="true" duration-ms="669" started-at="2019-06-25T16:26:43 BST" finished-at="2019-06-25T16:26:44 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

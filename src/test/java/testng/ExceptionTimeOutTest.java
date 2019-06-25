@@ -13,12 +13,13 @@ public class ExceptionTimeOutTest {
 //		}
 //	}
 	
-	@Test(expectedExceptions=NumberFormatException.class)
-	public void test1(){
-		String x = "100A";
-		Integer.parseInt(x);
-	}
+//	@Test(expectedExceptions=NumberFormatException.class)
+//	public void test1(){
+//		String x = "100A";
+//		Integer.parseInt(x);
+//	}
 //	
+	
 //	@Test(timeOut =2000)  //Will stop the loop after 2 secs
 //	public void infiniteLoop() {
 //		int i = 1;

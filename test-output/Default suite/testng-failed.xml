@@ -5,7 +5,7 @@
     <classes>
       <class name="testng.ExceptionTimeOutTest">
         <methods>
-          <include name="infintLoopTest"/>
+          <include name="infiniteLoop"/>
         </methods>
       </class> <!-- testng.ExceptionTimeOutTest -->
     </classes>
