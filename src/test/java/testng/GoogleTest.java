@@ -51,7 +51,10 @@ public class GoogleTest {
 
 	@Test(priority = 4, groups = "Test")
 	public void test1() {
-		System.out.println("test1");
+		System.out.println("test1 reading system properties ");
+		System.out.println(System.getProperty("url"));
+		System.out.println(System.getProperty("testSuite"));
+		System.out.println(System.getProperty("userName"));
 
 	}
 
