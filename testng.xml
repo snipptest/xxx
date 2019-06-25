@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.snipp.Anrotts.Prod_Arnotts_LoginSearchLogout"/>
+      <class name="test.java.testng.ExceptionTimeOutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

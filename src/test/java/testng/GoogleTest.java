@@ -53,12 +53,12 @@ public class GoogleTest {
 
 	@Test(priority = 5, groups = "Test")
 	public void test2() {
-		System.out.println("test1");
+		System.out.println("test12");
 	}
 
 	@Test(priority = 6, groups = "Test")
 	public void test3() {
-		System.out.println("test1");
+		System.out.println("test3");
 	}
 
 	// 3 //6 //9

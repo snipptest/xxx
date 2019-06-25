@@ -15,6 +15,7 @@ public class TestNgFeatures {
 		System.out.println("Home Page test");
 	}
 
+//	@Test(dependsOnMethods = "loginTest")
 	@Test(dependsOnMethods = "loginTest")
 	public void SearchPageTest() {
 		System.out.println("SearchPageTest");

@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.GoogleTest">
+      <class name="testng.InvocationCountTest">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="mailLinkTest"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- testng.GoogleTest -->
+      </class> <!-- testng.InvocationCountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
