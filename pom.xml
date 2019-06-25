@@ -111,13 +111,13 @@
 				<version>3.0.0-M3</version>
 				<configuration>
 
-					<!-- You can add or remove this includes part -->
+					<!-- You can add or remove this includes part
 					<includes>
-						testng.TestNgFeatures
+						
 						<include>
 
 						</include>
-					</includes>
+					</includes> -->
 
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
