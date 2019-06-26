@@ -16,10 +16,10 @@ public class GoogleTest {
 	// 1 //4 //7
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\01SelenideWorkSpace\\DemoTraining\\drivers\\chromedriver.exe");
 //		System.setProperty("webdriver.chrome.driver",
-//				"\\drivers\\chromedriver.exe");
+//				"C:\\01SelenideWorkSpace\\DemoTraining\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				"drivers\\chromedriver.exe");
 		driver = new ChromeDriver(); // launch chrome
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
